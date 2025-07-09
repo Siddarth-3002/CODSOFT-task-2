@@ -17,6 +17,9 @@ def rule_based_chatbot():
         elif "your name" in user_input or "whats your name" in user_input:
             print("🤖 Chatbot: I'm a simple chatbot created to help you with basic queries.")
 
+        elif "good" in user_input:
+            print("🤖 Chatbot: im happy to hear that you are doing good")
+        
         elif "help" in user_input:
             print("🤖 Chatbot: Sure! You can ask about my name, how I am, or just say hello!")
 
